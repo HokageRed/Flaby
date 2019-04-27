@@ -19,9 +19,7 @@ header {
 .headbc div:nth-child(2) {
     grid-column-start: 3;
 }
-.headbc div:nth-child(7) {
-    grid-column-start: 8;
-}
+
 .headbc div {
     color: white;
     text-transform: uppercase;
