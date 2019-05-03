@@ -3,8 +3,14 @@ body {
     margin: 0;
     font-family: 'Raleway', sans-serif;
 }
+body button {
+    outline: none;
+}
 .img-resp {
     height: 100%;
+}
+.t-align {
+    text-align: center;
 }
 /*MEDIA*/
 @media screen and (device-width: 1024px){
@@ -22,7 +28,7 @@ header {
     background-size: 100%;
     height: 865px;
 }
-                            /*HEADER MENU*/
+/*---------------HEADER MENU------------------*/
 .head-menu {
     display: grid;
     grid-template-columns: repeat(8, 1fr);
@@ -52,7 +58,6 @@ header {
     color: white;
     font-size: 17px;
     text-transform: uppercase;
-    outline: none;
 
 }
 .bt-lg:hover {
@@ -66,7 +71,7 @@ header {
 .logo-img {
     width: 100%;
 }
-                /*HEADER H1 + BUTTON*/
+/*--------------HEADER H1 + BUTTON-------------*/
 .head-title {
     display: grid;
     grid-template-columns: 1fr;
@@ -87,7 +92,6 @@ header {
     margin: 1%;
     font-size: 20px;
     color: #3e3e3e;
-    outline: none;
 }
 .bt-gs img {
     vertical-align: middle;
@@ -101,7 +105,6 @@ header {
     margin: 1%;
     font-size: 20px;
     color: white;
-    outline: none;
 }
 .bt-lm:hover {
     background: #2885e5;
@@ -112,23 +115,22 @@ header {
     transform: scale(1.1);
     transition: transform .2s;
 }
-/*-------------------------------------HEADER END--------------------------------*/
+/*-------------------------------------HEADER END------------------------------------------*/
 
 /*--------------------------------------Servisec container---------------------------------*/
 
 .s-cont {
     color: #7c7c7c;
     text-align: center;
-
 }
 .s-cont h2 {
-    color: black;
+    color: #494949;
 }
 .s-cont h3 {
-    color: black;
+    color: #494949;
 }
 
-/*-------------------------------------Items-------------------------------*/
+/*----------------------Items-----------------------*/
 .services {
     display: grid;
     font-size: 18px;
@@ -153,10 +155,85 @@ header {
     grid-column-start: 1;
 }
 
-/*-------------------------------Feature container---------------------*/
+/*-------------------------------------Feature container------------------------------------*/
 
 .f-cont {
     background: url(../img/background-2.png) no-repeat;
     background-size: 100%;
     height: 720px;
+    color: #7c7c7c;
 }
+.f-cont h2 {
+    color: #5a5b5b;
+}
+/*-------------контент-----*/
+.f-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 10% 10%;
+}
+.f-cont div:nth-child(1) {
+    grid-column-start: 2;
+}
+/*-------список----------*/
+.f-content img {
+    vertical-align: middle;
+}
+.f-span {
+    font-size: 14px;
+    margin: 10% 0;
+}
+
+/*-------------кнопка----------*/
+.bt-rm {
+    background: #66d4f4;
+    border-radius: 25px;
+    border-style: none;
+    margin: 1% 0;
+    padding: 3% 5%;
+    font-size: 14px;
+    color: white;
+    text-transform: uppercase;
+}
+.bt-rm:hover {
+    background: #2885e5;
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+
+
+/*--------------------------------------Feature container END-----------------------------*/
+
+
+/*---------------------------------Other servisec container--------------------------------*/
+.o-cont {
+    color: #7c7c7c;
+}
+.o-cont h2 {
+    color: #494949;
+    text-transform: uppercase;
+}
+.o-cont h3 {
+    color: #494949;
+    font-size: 18px;
+}
+.o-content {
+    display: grid;
+    font-size: 18px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 100px;
+    padding: 5% 10%;
+}
+.o-content p {
+    font-size: 14px;
+}
+.o-content :nth-child(1) {
+    grid-column-start: 2;
+}
+.o-content :nth-child(2) {
+    grid-column-start: 1;
+}
+
+
