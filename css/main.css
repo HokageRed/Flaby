@@ -229,11 +229,17 @@ header {
 .o-content p {
     font-size: 14px;
 }
-.o-content :nth-child(1) {
+.o-title {
     grid-column-start: 2;
 }
-.o-content :nth-child(2) {
+.o-first {
     grid-column-start: 1;
 }
 
+.o-indiv {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+}
 
