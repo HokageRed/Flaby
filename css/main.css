@@ -240,6 +240,102 @@ header {
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr;
-    grid-column-gap: 0px;
 }
+
+/*---------------------------------Other servisec container END--------------------------------*/
+.aress {
+    background: url(../img/background-3.png) no-repeat;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+.aress div {
+    outline:none;
+}
+.l-line {
+    border-top: #2eb0ec 2px solid;
+    width: 2%;
+    margin-left: 49%;
+}
+.tile {
+    margin: 5% 0;
+}
+
+.gleb {
+    margin: 0 auto;
+    width: 800px;
+    height: 320px;
+}
+.author {
+    position: absolute;
+    left: 40%;
+    top: -13%
+}
+.inside{
+    position: relative;
+    z-index: 99;
+    margin:5% auto;
+    width: 60%;
+    text-align: center;
+    border: #7c7c7c 1px solid;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+    padding:6%;
+    background: white;
+}
+.kek {
+    line-height: 6px;
+    padding:4%;
+}
+.inside p {
+    line-height: normal;
+    padding:4%;
+}
+.rel {
+    position: relative;
+}
+
+.slick-arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:inherit;
+    bottom: -38%;
+    position: absolute;
+    font-size: 24px;
+    color: black;
+}
+
+.slick-next {
+    right: 30%;
+}
+.slick-prev {
+    left: 30%;
+}
+.slick-next:before,
+.slick-prev:before {
+    content: none;
+}
+.slick-next:focus,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-prev:hover {
+    color: #9ea1a1;
+}
+
+
+/*------------------------------Feel free to download now------------------------------------/--------*/
+
+.cont-feel {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10%;
+    padding: 10% 10%;
+    color: #7c7c7c;
+}
+.cont-feel h1 {
+    color: #494949;
+}
+
+
 
